@@ -1,0 +1,7 @@
+KNOWN PROBLEMS
+==============
+It segfaults rarely when preemption happens often. Many hours have been spent trying to figure out why to no avail.
+
+DESIGN
+======
+I'm using a circular linked list for queuing. Everything else is standard practice.
